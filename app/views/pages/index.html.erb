@@ -1,0 +1,9 @@
+<h1>All Blog Pages</h1>
+
+<% @pages.each do |page| %>
+  <%= page.title %>
+  <%= link_to 'Show page', page_path(page)%>
+<% end %>
+
+
+
